@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Complejidad en Estructuras Lineales</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <h1>Complejidad en Estructuras Lineales</h1>
@@ -34,6 +35,17 @@
             </div>
         </div>
     </div>
+
+    <div class="charts">
+        <h2>ArrayList</h2>
+        <canvas id="myChart"></canvas>
+        <canvas id="insertionsChart"></canvas>
+
+        <h2>LinkedList</h2>
+        <canvas id="linkedListChart"></canvas>
+        <canvas id="linkedListInsertionsChart"></canvas>
+    </div>
+
     <script type="module" src="./src/controllers/Controller.mjs"></script>
 </body>
 </html>
